@@ -3,6 +3,7 @@
     justify-content: center;
     align-items: center;
     padding:0 120px;
+    overflow: scroll;
 }
 .adsl{
     display:flex;
@@ -203,7 +204,7 @@
     color: white;
 }
 .box{
-    height: 15%;
+    height: 30%;
     width: 100%;
     background: #008d712f;
     border-radius: 20px;
@@ -222,4 +223,130 @@
 .info1,.info2{
     font-size: 20px;
     font-weight: bold;
+}
+.btns{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding:0;
+}
+.space{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 300px;
+    padding: 0;
+    background: #009578;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    overflow: hidden;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin: 50px;
+    color: white;
+}
+.device{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 140px;
+    width: 600px;
+    padding: 0;
+    background: #009578;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    overflow: hidden;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin: 50px;
+}
+.device_name{
+    padding-right: 130px;
+    padding-left: 100px;
+    color: white;
+}
+.device_icon{
+    display: inline-flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    font-size: 60px;
+    padding-left: 100px;
+    background: #00866c;
+    color: white;
+}
+.land{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 140px;
+    width: 600px;
+    padding: 0;
+    background: #009578;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    overflow: hidden;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin: 50px;
+}
+.land_name{
+    padding-right: 95px;
+    padding-left: 100px;
+    color: white;
+    white-space: nowrap;
+}
+.land_icon{
+    display: inline-flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    font-size: 60px;
+    padding-left: 100px;
+    background: #00866c;
+    color: white;
+}
+.pay{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 140px;
+    width: 600px;
+    padding: 0;
+    background: #009578;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    overflow: hidden;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin: 50px;
+}
+.pay_name{
+    padding-right: 135px;
+    padding-left: 100px;
+    color: white;
+    white-space: nowrap;
+}
+.pay_icon{
+    display: inline-flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    font-size: 60px;
+    padding-left: 100px;
+    background: #00866c;
+    color: white;
 }
