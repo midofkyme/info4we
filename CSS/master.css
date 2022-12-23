@@ -202,3 +202,24 @@
     background: #00866c;
     color: white;
 }
+.box{
+    height: 15%;
+    width: 100%;
+    background: #008d712f;
+    border-radius: 20px;
+    overflow: scroll;
+}
+.msg{
+    text-align: right;
+    direction: rtl;
+    font-family: 'Quicksand', sans-serif;
+    padding: 1%;
+}
+.head{
+    text-align: center;
+    color: #00866c;
+}
+.info1,.info2{
+    font-size: 20px;
+    font-weight: bold;
+}
