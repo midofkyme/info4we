@@ -350,3 +350,142 @@
     background: #00866c;
     color: white;
 }
+.offer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 140px;
+    width: 600px;
+    padding: 0;
+    background: #009578;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    overflow: hidden;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin: 50px;
+}
+.offer_name{
+    padding-right: 160px;
+    padding-left: 100px;
+    color: white;
+    white-space: nowrap;
+}
+.offer_icon{
+    display: inline-flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    font-size: 60px;
+    padding-left: 100px;
+    background: #00866c;
+    color: white;
+}
+.space{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 300px;
+    padding: 0;
+    background: #009578;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    overflow: hidden;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin: 50px;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.level{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 300px;
+    padding: 0;
+    background: #009578;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    overflow: hidden;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin: 50px;
+    color: white;
+}
+.life{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 300px;
+    padding: 0;
+    background: #009578;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    overflow: hidden;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin: 50px;
+    color: white;
+}
+.game{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 300px;
+    padding: 0;
+    background: #009578;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    overflow: hidden;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin: 50px;
+    color: white;
+}
+.bonus{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 300px;
+    padding: 0;
+    background: #009578;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    overflow: hidden;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin: 50px;
+    color: white;
+}
+.articals{
+    font-family:'Cairo', sans-serif;
+}
+.all_imgs{
+    width: 100%;
+}
