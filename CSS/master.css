@@ -489,3 +489,7 @@ a{
 .all_imgs{
     width: 100%;
 }
+.space_art,.level_art,.life_art,.game_art,.bonus_art{
+    background: #00957718;
+    border-radius: 20px;
+}
