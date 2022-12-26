@@ -4,39 +4,56 @@
     align-items: center;
     padding:0 120px;
     overflow: scroll;
+    font-family:'Cairo', sans-serif;
+}
+.contain{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+    position: relative;
+    height: 500px;
+    width: 700px;
+    background: #eeeeee;
+    border-radius: 20px 20px 60px 60px;
+    overflow: hidden;
+}
+.img0{
+    margin: 20px 20px 20px 600px ;
+    background: white;
+    border: 0;
+    height: 200px;
+    width: 95%;
+    background: url(https://drive.google.com/uc?export=view&id=1gJ_GNbNNM5FZHtTvWuvKCvtple-AYozg) no-repeat;
+    background-size: 100% 100%;
+    border-radius: 20px;
+}
+.titlecont{
+    font-size: 45px;
+    font-weight: bold;
+    color: #009578;
+    padding-right: 5%;
+}
+.infocont{
+    font-size: 35px;
+    padding-right: 3%;
 }
 .adsl{
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    height: 140px;
-    width: 600px;
-    padding: 0;
-    background: #009578;
-    border: none;
-    outline: none;
-    border-radius: 20px;
-    overflow: hidden;
-    font-family: 'Quicksand', sans-serif;
-    font-size: 40px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 110px;
+   width: 100%;
+   background: #009578;
+   border: 0;
+}
+ .adsl_name{
+    font-size: 45px;
     font-weight: bold;
-    text-align: center;
-    margin: 50px;
-}
-.adsl_name{
-    padding-right: 160px;
-    padding-left: 100px;
+    /* padding-right: 160px;
+    padding-left: 100px; */
     color: white;
-}
-.adsl_icon{
-    display: inline-flex;
-    align-items: center;
-    height: 100%;
-    width: 100%;
-    font-size: 60px;
-    padding-left: 100px;
-    background: #00866c;
-    color: white;
+    font-family:'Cairo', sans-serif;
 }
 .mobile{
     display:flex;
@@ -174,10 +191,10 @@
     display:flex;
     justify-content: center;
     align-items: center;
-    height: 140px;
+    height: 200px;
     width: 600px;
     padding: 0;
-    background: #009578;
+    background: url(https://drive.google.com/uc?export=view&id=1hdivmlxkUOujcG064IBFm9UVJOk6UXYy);
     border: none;
     outline: none;
     border-radius: 20px;
@@ -187,22 +204,26 @@
     font-weight: bold;
     text-align: center;
     margin: 50px;
+    
 }
 .update_name{
-    padding-right: 110px;
-    padding-left: 100px;
-    color: white;
+    padding-right: 60px;
+    padding-left: 90px;
+    color: #c6e2ff;
+    font-weight: bold;
+    font-size: 60px;
+    
 }
-.update_icon{
+/* .update_icon{
     display: inline-flex;
     align-items: center;
     height: 100%;
     width: 100%;
     font-size: 60px;
     padding-left: 100px;
-    background: #00866c;
+    background: #f1c27d;
     color: white;
-}
+} */
 .box{
     height: 30%;
     width: 100%;
@@ -213,12 +234,16 @@
 .msg{
     text-align: right;
     direction: rtl;
-    font-family: 'Quicksand', sans-serif;
+    font-family:'Cairo', sans-serif;
     padding: 1%;
+    margin: 0;
 }
 .head{
     text-align: center;
     color: #00866c;
+    font-size: 12px;
+    padding: 0;
+    margin: 0;
 }
 .info1,.info2{
     font-size: 20px;
@@ -229,6 +254,7 @@
     justify-content: center;
     align-items: center;
     padding:0;
+    
 }
 .space{
     display:flex;
