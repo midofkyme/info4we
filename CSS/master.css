@@ -638,3 +638,27 @@ a{
     margin: 50px;
     color: white;
 }
+.casecont{
+    height: 260Px;
+    width: 700px;
+    background: #eeeeee;
+    margin-top: 30px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.casebtn{
+    height: 100%;
+    width: 100%;
+    border: none;
+    background-image: linear-gradient(45deg,#009578, #065535);
+}
+.case_name{
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+}
+.case_icon{
+    font-size: 80px;
+    color: white;
+    margin-left: 20px;
+}
