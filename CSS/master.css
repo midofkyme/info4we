@@ -374,12 +374,12 @@
 .head{
     text-align: center;
     color: #00866c;
-    font-size: 12px;
+    font-size: 20px;
     padding: 0;
     margin: 0;
 }
 .info1,.info2{
-    font-size: 20px;
+    font-size: 40px;
     font-weight: bold;
 }
 .btns{
