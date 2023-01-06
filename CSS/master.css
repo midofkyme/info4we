@@ -379,7 +379,7 @@
     margin: 0;
 }
 .info1,.info2,.info3{
-    font-size: 28px;
+    font-size: 25px;
     font-weight: bold;
 }
 .btns{
@@ -779,3 +779,41 @@ table, td, th{
     border: 0;
     border-radius: 55px 0 0 0;
 }
+.tohome{
+    position: fixed;
+    z-index: 999;
+    border-radius: 10px;
+    width: 50px;
+    height: 50px;
+    background: #009578;
+    bottom: 10px;
+    left: 42%;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 50px;
+}
+.dock{
+    position: fixed;
+    border-radius: 15px;
+    width: 95%;
+    height: 65px;
+    background: #d8d8d8ef;
+    bottom: 5px;
+    box-shadow: 13px 13px 20px #cbced1, -13px -13px 20px #fff;
+}
+.alltop{
+    position: fixed;
+    border-radius: 10px;
+    width: 50px;
+    height: 50px;
+    background: #009578;
+    bottom: 10px;
+    right: 5%;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 50px;
+} 
