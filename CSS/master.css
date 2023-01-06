@@ -378,7 +378,7 @@
     padding: 0;
     margin: 0;
 }
-.info1,.info2,.info3{
+.info1,.info2,.info3,.info4{
     font-size: 25px;
     font-weight: bold;
 }
@@ -619,7 +619,7 @@ a{
     background: #00957718;
     border-radius: 20px;
 }
-.agd3, .mix, .kix, .tazzbet, .club, .nitro, .ussd, .deposit, .refund, .atp, .dunn, .offer1, .offer2, .forg, .cycle, .serv1, .serv2{
+.agd3, .mix, .kix, .tazzbet, .club, .nitro, .ussd, .deposit, .refund, .atp, .dunn, .offer1, .offer2, .forg, .cycle, .serv1, .serv2, .alo, .corp{
     display:flex;
     justify-content: center;
     align-items: center;
@@ -793,7 +793,7 @@ table, td, th{
     font-weight: bold;
     text-align: center;
     line-height: 50px;
-    box-shadow: inset 4px 4px 4px #cbced1, inset -4px -4px 4px #fff;
+    /* box-shadow: inset 4px 4px 4px #cbced1, inset -4px -4px 4px #fff; */
 }
 .dock{
     position: fixed;
@@ -802,7 +802,7 @@ table, td, th{
     height: 65px;
     background: #d8d8d8ef;
     bottom: 10px;
-    box-shadow: 13px 13px 20px #cbced1, -13px -13px 20px #fff;
+    box-shadow: 5px 5px 8px #cbced1, -5px -5px 8px #fff;
 }
 .alltop{
     position: fixed;
@@ -817,5 +817,5 @@ table, td, th{
     font-weight: bold;
     text-align: center;
     line-height: 50px;
-    box-shadow: inset 4px 4px 4px #cbced1, inset -4px -4px 4px #fff;
+    /* box-shadow: inset 4px 4px 4px #cbced1, inset -4px -4px 4px #fff; */
 } 
