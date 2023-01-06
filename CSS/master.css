@@ -786,13 +786,14 @@ table, td, th{
     width: 50px;
     height: 50px;
     background: #009578;
-    bottom: 10px;
+    bottom: 15px;
     left: 42%;
     color: white;
     font-size: 25px;
     font-weight: bold;
     text-align: center;
     line-height: 50px;
+    box-shadow: inset 4px 4px 4px #cbced1, inset -4px -4px 4px #fff;
 }
 .dock{
     position: fixed;
@@ -800,7 +801,7 @@ table, td, th{
     width: 95%;
     height: 65px;
     background: #d8d8d8ef;
-    bottom: 5px;
+    bottom: 10px;
     box-shadow: 13px 13px 20px #cbced1, -13px -13px 20px #fff;
 }
 .alltop{
@@ -809,11 +810,12 @@ table, td, th{
     width: 50px;
     height: 50px;
     background: #009578;
-    bottom: 10px;
+    bottom: 15px;
     right: 5%;
     color: white;
     font-size: 25px;
     font-weight: bold;
     text-align: center;
     line-height: 50px;
+    box-shadow: inset 4px 4px 4px #cbced1, inset -4px -4px 4px #fff;
 } 
