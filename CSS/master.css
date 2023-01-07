@@ -690,7 +690,7 @@ table, td, th{
     justify-content: center;
     margin-right: 50px;
     margin-left: 90px;
-    margin-bottom: 50px;
+    margin-bottom: 5px;
     width: 800px;
     height: 400px;
     border-radius: 10px;
@@ -819,3 +819,58 @@ table, td, th{
     line-height: 50px;
     /* box-shadow: inset 4px 4px 4px #cbced1, inset -4px -4px 4px #fff; */
 } 
+.other{
+
+    height: 240px;
+    width: 90%;
+    background-color: rgb(250, 249, 249);
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    box-shadow: 0 5px 25px rgba(1, 1, 1, 15%);
+
+}
+.other-contain{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.voda{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.etisal{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.orang{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.voda-btn{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: none;
+    background-color: red;
+    margin: 20px;
+}
+.etisal-btn{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: none;
+    background-color: rgb(0, 188, 0);
+    margin:20px 120px;
+}
+.orang-btn{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: none;
+    background-color: orange;
+    margin: 20px;
+}
