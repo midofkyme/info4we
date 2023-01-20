@@ -378,7 +378,7 @@
     padding: 0;
     margin: 0;
 }
-.info1,.info2,.info3,.info4{
+.info1,.info2,.info3,.info4,.info5,.info6,.info7{
     font-size: 25px;
     font-weight: bold;
 }
@@ -619,7 +619,7 @@ a{
     background: #00957718;
     border-radius: 20px;
 }
-.agd3, .mix, .kix, .tazzbet, .club, .nitro, .ussd, .deposit, .refund, .atp, .dunn, .offer1, .offer2, .forg, .cycle, .serv1, .serv2, .alo, .corp{
+.agd3, .mix, .kix, .tazzbet, .club, .nitro, .ussd, .deposit, .refund, .atp, .dunn, .offer1, .offer2, .forg, .cycle, .serv1, .serv2, .alo, .corp, .rasede{
     display:flex;
     justify-content: center;
     align-items: center;
