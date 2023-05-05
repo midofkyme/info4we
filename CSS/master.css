@@ -269,6 +269,15 @@ body{
     background-size: 100% 100%;
     border-radius: 20px;
 }
+.img01-9{
+    background: white;
+    border: 0;
+    height: 400px;
+    width: 550px;
+    background: url(https://drive.google.com/uc?export=view&id=108STl4hlwrLy-p6GoZAYPKsp8An7X3QD) no-repeat;
+    background-size: 100% 100%;
+    border-radius: 20px;
+}
 .titlecont2{
     font-size: 45px;
     font-weight: bold;
@@ -782,10 +791,10 @@ body{
     margin: 50px;
     color: white;
 }
-a{
-    /* text-decoration: none;
-    color: white; */
-}
+/* a{
+    text-decoration: none;
+    color: white;
+} */
 .level{
     display:flex;
     justify-content: center;
