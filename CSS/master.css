@@ -1,10 +1,10 @@
 body{
-    background:rgb(46, 46, 46) ;
+    background:#FFF2F2 ;
     padding: 0;
     margin: 0;
     
 }
-.top-img{
+/* .top-img{
     background-image: url('https://drive.google.com/uc?export=view&id=1nmZG_Nvim4mndfrlXIM5Pw-HuBeXUPU-');
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -13,34 +13,43 @@ body{
     width: 100%;
     height: 65%;
     z-index: -999;
-}
-.zerocards{
+} */
+.zerocards, .onecards{
     display: grid;
-    gap: 40px;
+    gap: 30px;
     grid-auto-flow: column;
-    grid-auto-columns: 40.5%;
+    grid-auto-columns: 30%;
     overflow-x: 100%;
 }
 
-.firstcards{
+.firstcards, .firstcards2, .firstcards3{
     display: grid;
-    gap: 50px;
+    gap: 40px;
     grid-auto-flow: column;
-    grid-auto-columns: 65%;
+    grid-auto-columns: 47%;
     overflow-x: 100%;
 }
+.firstcards4{
+    display: grid;
+    gap: 30px;
+    grid-auto-flow: column;
+    grid-auto-columns: 22%;
+    overflow-x: 100%;
+}
+
 .secondcards{
     display: grid;
-    gap: 50px;
+    gap: 20px;
     grid-auto-flow: column;
-    grid-auto-columns: 85%;
+    grid-auto-columns: 23%;
     overflow-x: 100%;
+    height: 290px;
 }
 .theredcards{
     display: grid;
-    gap: 50px;
+    gap: 21px;
     grid-auto-flow: column;
-    grid-auto-columns: 43%;
+    grid-auto-columns: 18%;
     overflow-x: 100%;
 }
 
@@ -294,7 +303,7 @@ body{
    align-items: center;
    height: 110px;
    width: 100%;
-   background: #009578;
+   background: #FFF2F2;
    border: 0;
 }
  .adsl_name{
@@ -311,7 +320,7 @@ body{
    align-items: center;
    height: 110px;
    width: 100%;
-   background: #009578;
+   background: #FFF2F2;
    border: 0;
 }
 .mobile_name{
@@ -606,10 +615,10 @@ body{
 } */
 .box{
     height: 45%;
-    width: 98%;
-    background: #3e3e3e50;
-    border-radius: 25px;
-    border:6px solid #3e7592;
+    width: 99%;
+    background: linear-gradient(#7286D3, #392467);
+    border-radius:0 0 60px 60px;
+    /* border:6px solid #3e7592; */
     overflow: scroll;
     margin: auto;
 }
@@ -632,7 +641,7 @@ body{
 
 .head{
     text-align: center;
-    color: #3e7592;
+    color: #FFD1E3;
     font-size: 20px;
     padding: 0;
     margin: 0;
@@ -878,7 +887,7 @@ body{
     width: 100%;
 }
 .space_art,.level_art,.life_art,.game_art,.bonus_art,.sonic_art{
-    background: #009577;
+    background: #f4e7e7;
     border-radius: 20px;
 }
 .sup, .agd3, .mix, .kix, .tazzbet, .club, .nitro, .ussd, .deposit, .refund, .atp, .dunn, .offer1, .offer2, .forg, .cycle, .serv1, .serv2, .alo, .corp, .rasede{
